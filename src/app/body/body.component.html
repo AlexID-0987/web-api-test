@@ -1,0 +1,48 @@
+<form #addform="ngForm" (ngSubmit)="additem(addform.value)" class="myform">
+    <div class="block">
+        <input type="number" name="id" id="form" ngModel placeholder="Enter Id">
+    </div>
+    <div class="block">
+        <input type="text" name="tit" ngModel placeholder="Enter title">
+    </div>
+    <div class="block">
+        <input type="text" name="aut" ngModel placeholder="Enter author">
+    </div>
+    <div class="block">
+    <button class="btn btn-primary">Add</button>
+    </div>
+</form>
+<div class="par">
+<p>Update element</p>
+</div>
+
+    <div class="update">
+        <div class="la">
+        <label name="id">Enter Update Title : </label>
+        <input type="text" id="in" [(ngModel)]="TITLE">
+        </div>
+        <div class="la">
+        <label name="id">Enter Update Author : </label>
+        <input type="text" id="in" [(ngModel)]="AUT">
+        </div>
+    </div>
+
+<div class="first">
+    <div *ngFor="let arr of peop" class="card"> 
+      <div>
+          <label id="l">{{arr.id}}</label>
+      </div>
+      <div>
+        <label id="l">{{arr.title}}</label>
+    </div>
+    <div>
+        <label id="l">{{arr.author}}</label>
+    </div>
+    <div class="but">
+        <button type="button" class="btn btn-danger" (click)="delete(arr.id)">Delete</button>
+    </div>
+    <div class="but">
+        <button type="button" class="btn btn-danger" (click)="update(arr.id)">Update</button>
+    </div>
+    </div>
+</div>

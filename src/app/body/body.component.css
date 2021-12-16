@@ -1,0 +1,46 @@
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: chocolate;
+    text-align: center;
+    margin: 2em;
+    
+}
+ #l{
+    font-size: 2em;
+    
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.block{
+    margin: 2em;
+}
+.but{
+    margin: 1em;
+}
+.update{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.la{
+    margin: 1em;
+    
+
+}
+.par{
+    text-align: center;
+    background-color: darkcyan;
+}
+.myform{
+    background-color: darkolivegreen;
+    margin-bottom: 0.5em;
+}

@@ -1,0 +1,104 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": " alex",
+      "author": " clar"
+    },
+    {
+      "id": " ",
+      "title": " ",
+      "author": " "
+    },
+    {
+      "id": 12234,
+      "title": " ivan",
+      "author": " serdggtry"
+    },
+    {
+      "id": 435,
+      "title": " gala",
+      "author": " rewq"
+    },
+    {
+      "id": 3445,
+      "title": "rewqy",
+      "author": "yturoo"
+    },
+    {
+      "id": 457,
+      "title": "ghgf",
+      "author": "fghjfg"
+    },
+    {
+      "id": 4564,
+      "title": " alex",
+      "author": " clar"
+    },
+    {
+      "id": 45765,
+      "title": " alex",
+      "author": " clar"
+    },
+    {
+      "id": 465465,
+      "title": "gjjggggg",
+      "author": "vbmbv"
+    },
+    {
+      "id": 8976,
+      "title": "erty",
+      "author": "rty"
+    },
+    {
+      "id": 568765,
+      "title": "jgfjgjhf",
+      "author": " bbvbvmv"
+    },
+    {
+      "id": 678586,
+      "title": "gfjgf",
+      "author": "gfjgj"
+    },
+    {
+      "id": 79897,
+      "title": "gfjfg",
+      "author": "dfhhhhhhhhhhhhhhh"
+    },
+    {
+      "id": 689,
+      "title": "568758",
+      "author": "5686585"
+    },
+    {
+      "id": 43443,
+      "title": "fgfgrfg",
+      "author": "bvbvb"
+    },
+    {
+      "id": 655868,
+      "title": "gghgjhj",
+      "author": "ghjjfgh"
+    },
+    {
+      "id": 56343,
+      "title": "gffgfhfd",
+      "author": "dfhgdhfdf"
+    },
+    {
+      "id": 12,
+      "title": "aledrew",
+      "author": "fgrtekkl"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
